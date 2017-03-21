@@ -1,0 +1,45 @@
+<h1>{{name}}</h1>
+    <button (click)="toggleRules()">{{showRules ? "Hide Rules" : "Show Rules"}}</button>
+    <div *ngIf="showRules">
+        <h3>Rules</h3>
+        <ul>
+            <li *ngFor="let rule of rules; let i = index">
+                {{rule}} <button (click)="deleteRule(i)">Remove</button>
+            </li>
+        </ul>
+        <form (submit)="addRule(rule.value)">
+            <label>Add Rule: </label><br />
+            <input type="text" #rule /><br />
+        </form>
+    </div>
+    
+    <hr/>
+     <h3>User Profile</h3>
+      <form>
+        <label>Name: </label><br />
+        <input type="text" name="name" [(ngModel)]="name" /><br />
+        <label>Email: </label><br />
+        <input type="text" name="email" [(ngModel)]="email" /><br />
+    
+    </form>
+ 
+    <div id = "schema">
+    <div id = "earth">
+    </div>
+
+    
+    <hr/>
+    </div>
+    
+     <h3>Data Sources</h3>
+     <div *ngFor="let dataSource of dataSources"> 
+         <h3>{{dataSource.notebookName}}</h3> 
+         <p>{{dataSource.author}}</p>
+         <p>{{dataSource.description}}</p> 
+         <p>{{dataSource.id}}</p>
+         <p>{{dataSource.analyticType}}</p> 
+         <p>{{dataSource.classification}}</p> 
+         <p>{{dataSource.maturity}}</p>
+         <p>{{dataSource.languages}}</p> 
+         <p>{{dataSource.dataSources}}</p> 
+     </div> 
