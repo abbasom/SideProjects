@@ -9,7 +9,7 @@ export class PostsService {
     }
 
     getDataSources(){
-        return this.http.get('http://34.194.42.167:8090/asc_rest/rest/zeppelin/query/2CD83E4Q5')
+        return this.http.get('http://path/to/rest/service')
             .map(res => res.json());
     }
 }
