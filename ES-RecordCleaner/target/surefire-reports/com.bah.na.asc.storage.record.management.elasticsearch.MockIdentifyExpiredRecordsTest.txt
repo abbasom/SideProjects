@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.bah.na.asc.storage.record.management.elasticsearch.MockIdentifyExpiredRecordsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.947 sec - in com.bah.na.asc.storage.record.management.elasticsearch.MockIdentifyExpiredRecordsTest

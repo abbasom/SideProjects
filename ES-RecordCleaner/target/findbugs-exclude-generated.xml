@@ -1,0 +1,21 @@
+<FindBugsFilter>
+
+    <Match>
+        <!-- Exclude warnings in generated thrift class files -->
+        <Class name="~com\.bah\.asc\.core\.thrift\..*" />     
+        <Bug pattern="CN_IDIOM,NM_CLASS_NAMING_CONVENTION,DLS_DEAD_LOCAL_STORE" />
+    </Match>
+    
+    <Match>
+        <!-- Exclude warnings in generated thrift class files -->
+    <Class name="~com\.bah\.na\.asc\.analytics\.orchestration\.shepherd\.taskcontroller\.thrift\..*" />
+        <Bug pattern="CN_IDIOM,NM_CLASS_NAMING_CONVENTION,DLS_DEAD_LOCAL_STORE" />
+    </Match>
+    
+    <Match>
+        <!-- Exclude warnings in generated thrift class files -->
+    <Class name="~com\.bah\.na\.asc\.analytics\.orchestration\.clients\.analyticcontroller\.thrift\..*" />
+        <Bug pattern="CN_IDIOM,NM_CLASS_NAMING_CONVENTION,DLS_DEAD_LOCAL_STORE" />
+    </Match>
+    
+</FindBugsFilter>

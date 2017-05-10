@@ -1,0 +1,4 @@
+com\bah\na\asc\storage\record\management\elasticsearch\IdentifyNearExpiredRecords.class
+com\bah\na\asc\storage\record\management\elasticsearch\RecordMetadata.class
+com\bah\na\asc\storage\record\management\elasticsearch\ESRecordManager.class
+com\bah\na\asc\storage\record\management\elasticsearch\PostNearExpiredRecords.class

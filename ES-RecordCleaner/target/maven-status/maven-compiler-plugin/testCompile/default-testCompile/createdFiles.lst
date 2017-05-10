@@ -1,0 +1,4 @@
+com\bah\na\asc\storage\record\management\elasticsearch\MockPostNearExpiredRecordsTest.class
+com\bah\na\asc\storage\record\management\elasticsearch\IdentifyNearExpiredRecordsTest.class
+com\bah\na\asc\storage\record\management\elasticsearch\MockIdentifyExpiredRecordsTest.class
+com\bah\na\asc\storage\record\management\elasticsearch\PostNearExpiredRecordsTest.class
